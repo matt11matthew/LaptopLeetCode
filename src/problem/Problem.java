@@ -6,4 +6,10 @@ package problem;
 public abstract class Problem {
 
     public abstract void start();
+
+    protected void printArr(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] +" ");
+        }
+    }
 }
