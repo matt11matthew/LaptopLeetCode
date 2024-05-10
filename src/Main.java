@@ -1,4 +1,5 @@
 import problems.easy.RemoveDuplicatesFromSortedArray;
+import problems.medium.ReverseInteger;
 
 import java.util.Arrays;
 import java.util.regex.Matcher;
@@ -11,6 +12,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+        new ReverseInteger().start();
     }
 
 }
